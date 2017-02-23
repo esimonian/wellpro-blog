@@ -1,0 +1,15 @@
+ {% for item in menu %}
+    <li>
+      <span>
+        <a href="{{ item.url }}">
+          {{ item.title }}
+        </a>
+      </span>
+
+      {% if item.children %}
+        {% assign menu = item.children %}
+        {% include
+          _menus.html
+        %}
+      {% endif %}
+  {% endfor %}
