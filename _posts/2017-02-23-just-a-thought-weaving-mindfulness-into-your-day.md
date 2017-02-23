@@ -1,5 +1,5 @@
 ---
-title: " Just a Thought: Weaving Mindfulness into your Day "
+title: 'Weaving Mindfulness into your Day '
 layout: post
 date: '2015-11-12T23:09:00+04:00'
 image: "/uploads/2017/02/23/slideshow_2.jpg"
