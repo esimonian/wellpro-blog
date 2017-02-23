@@ -4498,5 +4498,12 @@ input[type="email"].newsletter-input:focus {
     display: none;
   }
 }
+.side-about-img {
+  border-radius: 50%;
+height: 200px;
+width: 200px;
+object-fit: cover;
+}
+
 
 /*# sourceMappingURL=style.css.map */

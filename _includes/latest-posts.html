@@ -7,7 +7,7 @@
           </div>
 
           <div id="main-slider" class="flickity-slider-wrap">
-          {% for post in site.posts  %}
+          {% for post in site.posts | limit: 10 %}
             <div class="gallery-cell">
               <article>
                 <a href="{{ site.baseurl}}/{{ post.url }}" class="entry-img">
