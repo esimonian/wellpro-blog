@@ -3,6 +3,8 @@ title: 'Weaving Mindfulness into your Day '
 layout: post
 date: '2015-11-12T23:09:00+04:00'
 image: "/uploads/2017/02/23/bbcollage1-4.jpg"
+categories:
+- Mindfullness
 ---
 People often complain that they don’t have the time to practise mindfulness. If your one of those busy ones, you might like this: Think about three things you do each day. Like brushing your teeth, being in nature and having lunch. Then link this activity to a mindfulness practice:
 
