@@ -59,11 +59,12 @@ layout: default
                       </div>
 
                       <!-- entry author -->
+                      {% assign author = site.data.authors[page.author] %}
                       <div class="entry-author-box clearfix">
                         <img src="{{ site.baseurl}}/img/author.jpg" class="author-img" alt="img">
                         <div class="author-info">
-                          <h6 class="author-name"><a href="#">Alexis Ran</a></h6>
-                          <p class="mb-0">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quisma bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus itaet.
+                          <h6 class="author-name"><a href="#">{{author.name}}</a></h6>
+                          <p class="mb-0">{{author.bio}}
                           </p>
                           <div class="social-icons">
                             <a href="#"><i class="fa fa-instagram"></i></a>

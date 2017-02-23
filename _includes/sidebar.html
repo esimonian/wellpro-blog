@@ -35,21 +35,11 @@
                   <h3 class="widget-title heading">Categories</h3>
                 </div>
                 <ul class="list-dividers">
+                {% for category in site.categories | limit: 4 %}
                   <li>
-                    <a href="#">Lifestyle</a><span>(8)</span>
+                    <a href="#">{{category | first }}</a><span>({{category | last | size}})</span>
                   </li>
-                  <li>
-                    <a href="#">Travel</a><span>(14)</span>
-                  </li>
-                  <li>
-                    <a href="#">Beauty</a><span>(5)</span>
-                  </li>
-                  <li>
-                    <a href="#">Music</a><span>(3)</span>
-                  </li>
-                  <li>
-                    <a href="#">Food</a><span>(7)</span>
-                  </li>
+               {% endfor %}
                 </ul>
               </div>
 
