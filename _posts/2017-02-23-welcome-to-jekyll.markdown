@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to Jekyll!
 date: '2017-02-23T11:37:01.000+00:00'
-image: img/main_slide_1.jpg
+image: /img/main_slide_1.jpg
 categories: 
 - jekyll 
 - update
