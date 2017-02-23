@@ -7,19 +7,20 @@
           </div>
 
           <div id="main-slider" class="flickity-slider-wrap">
-          {% for post in site.posts limit:10 %}
+          {% for post in site.posts  %}
             <div class="gallery-cell">
               <article>
                 <a href="blog-single.html" class="entry-img">
-                  <img src="img/main_slide_1.jpg" alt="">
-                  <span class="entry-category">Travel</span>
+                  <img src="{{ post.image }}" alt="">
+                  <span class="entry-category">{{ post.categories[0] }}</span>
                 </a>
                 <div class="entry text-center">                  
-                  <h4 class="entry-title uppercase"><a href="{{ post.url }}">revolve in mexico</a></h4>
+                  <h4 class="entry-title uppercase"><a href="{{ post.url }}">{{ post.title }}</a></h4>
                   <span class="entry-date">{{ post.date }}</span>
                 </div>
               </article>
             </div>
+            {% endfor %}
           </div>
         </div>
       </section> <!-- end latest stories -->
