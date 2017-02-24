@@ -16,7 +16,7 @@
                 </a>
                 <div class="entry text-center">                  
                   <h4 class="entry-title uppercase"><a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h4>
-                  <span class="entry-date">{{ post.date }}</span>
+                  <span class="entry-date">{{ post.date | date_to_string }}</span>
                 </div>
               </article>
             </div>

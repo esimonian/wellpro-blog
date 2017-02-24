@@ -69,7 +69,7 @@
                           <h3 class="entry-title"><a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h3>
                           <ul class="entry-meta list-inline">
                             <li class="entry-date">
-                              <a href="#">{{ post.date }}</a>
+                              <a href="#">{{ post.date | date_to_string }}</a>
                             </li>
                           </ul>
                         </div>
