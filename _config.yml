@@ -24,7 +24,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 future: true
-
+twitter_username:     r3bl_
+github_username:      aleksandar-todorovic
+linkedin_username:    aleksandartodorovic
+google_plus_username: AleksandarTodorovićr3bl
+facebook_username:    aleksandar.todorovic.r3bl
 # Build settings
 markdown: kramdown
 gems:

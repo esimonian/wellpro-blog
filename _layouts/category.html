@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="heading-row text-center mb-40">
+  <h2 class="heading uppercase small">{{page.title}}</h2>
+</div>
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+{% for post in site.categories.page.category %}
+   <!-- Content -->
+      <section class="content blog-standard pt-mdm-50">
+        <div class="container relative">
+          <div class="row">
+            
+            <!-- post content -->
+            <div class="col-md-9 post-content mb-50">
+
+              <!-- list posts -->
+              <div class="row items-list">
+              
+                <article class="entry-item clearfix">
+                  <div class="col-sm-5">
+                    <div class="entry-img">
+                      <a href="{{ site.baseurl}}/{{ post.url }}">
+                        <img src="{{ site.baseurl}}/{{ post.image }}" alt="">
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-7">
+                    <div class="entry-header">
+                      <a href="#" class="entry-category">{{page.title}}</a>
+                      <h2 class="entry-title">
+                        <a href="{{ site.baseurl}}/{{ post.url }}">missing the Bahamas</a>
+                      </h2>
+                    </div>
+                    <div class="entry-wrap">
+                      <div class="entry">                                            
+                        <div class="entry-content">
+                          <p>{{ post.description }}
+                          </p>
+                        </div>
+                        <div class="entry-meta-wrap clearfix">
+                          <ul class="entry-meta">
+                            <li class="entry-date">
+                              <a href="#">{{ post.date | date_to_string }}</a>
+                            </li>                 
+                            <li class="entry-comments">
+                              <a href="{{ site.baseurl}}/{{ post.url }}">2 Comments</a>
+                            </li>             
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+          
+              </div> <!-- end list posts -->
+
+<!--
+              <div class="row mt-20">
+                <div class="col-md-12 text-center">
+                  <a href="#" class="btn btn-md btn-stroke" id="load-more">Load More</a>
+                </div>
+              </div>
+
+-->
+            </div> <!-- end col -->
+            
+            <!-- Sidebar -->
+           {% include sidebar.html %}
+           <!-- end sidebar -->
+      
+          </div> <!-- end row -->
+        </div> <!-- end container -->
+      </section> <!-- end content -->
+
+{% endfor %}

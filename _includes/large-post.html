@@ -29,7 +29,8 @@
             <a href="#">{{ post.date | date_to_string }}</a>
           </li>                 
           <li class="entry-comments">
-            <a href="blog-single.html">2 Comments</a>
+
+            <a href="{{ site.baseurl}}/{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}">First article</a>
           </li>             
         </ul>
 
