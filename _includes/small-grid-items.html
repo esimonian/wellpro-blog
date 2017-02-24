@@ -1,0 +1,34 @@
+ <div class="col-sm-6">
+    <article class="entry-item">                                        
+      <div class="entry-img">
+        <a href="{{ site.baseurl}}/{{ post.url }}">
+          <img src="{{ site.baseurl}}/{{ post.image }}" alt="">
+        </a>
+      </div>
+      <div class="entry-header">
+        <a href="{{ site.baseurl}}/{{ post.url }}" class="entry-category">{{ post.categories[0]}}</a>
+        <h2 class="entry-title">
+          <a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a>
+        </h2>
+      </div>
+      <div class="entry-wrap">
+        <div class="entry">                                            
+          <div class="entry-content">
+            <p>
+            {{ post.description}}
+            </p>
+          </div>
+          <div class="entry-meta-wrap clearfix">
+            <ul class="entry-meta">
+              <li class="entry-date">
+                <a href="{{ site.baseurl}}/{{ post.url }}">{{ post.date | date_to_string }}</a>
+              </li>                 
+              <li class="entry-comments">
+                <a href="{{ site.baseurl}}/{{ post.url }}">2 Comments</a>
+              </li>             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>

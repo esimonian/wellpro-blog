@@ -1,13 +1,13 @@
 <article class="entry-item large-post">
   <div class="entry-header">
-    <a href="#" class="entry-category">Lifestyle</a>
+    <a href="#" class="entry-category">{{ post.categories[0]}}</a>
     <h2 class="entry-title">
       <a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title}}</a>
     </h2>
   </div>
   
   <div class="entry-img">
-    <a href="blog-single.html">
+    <a href="{{ site.baseurl}}/{{ post.url }}">
       <img src="{{ site.baseurl}}/{{ post.image }}" alt="">
     </a>
   </div>
@@ -16,7 +16,7 @@
     <div class="entry">                    
                           
       <div class="entry-content">
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quisma bibendum auctor, nisi elit consequat ipsum, necsagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi acumsan ipsum velit. Nam nec tellusb a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent tacitioci Nullam ac urnaeu felis dapibus condi  entum sit amet a augue osqu ad litora torquent per conubia nostra, perada inceptos...
+        <p>{{ post.description}}
         </p>
         <div class="text-center">
           <a href="{{ site.baseurl}}/{{ post.url }}" class="read-more underline-link">Read More</a>
