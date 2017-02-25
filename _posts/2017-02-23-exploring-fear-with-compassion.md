@@ -5,7 +5,11 @@ date: '2017-02-23T19:14:26+00:00'
 author: stephanie-niazi
 categories:
 - Happiness
-image: "/uploads/2017/02/23/pexels-photo-315658-4.jpg"
+image: "/uploads/2017/02/24/pexels-photo-315658-1.jpg"
+description: When we experience fear, sometimes the last thing we feel we want to
+  do is meet it head on. Our habitual response may be to distract ourselves, or try
+  to ignore it. However, by doing this, we miss out on the opportunities for freedom
+  and growth that fear offers.
 ---
 When we experience fear, sometimes the last thing we feel we want to do is meet it head on. Our habitual response may be to distract ourselves, or try to ignore it. However, by doing this, we miss out on the opportunities for freedom and growth that fear offers.
 
