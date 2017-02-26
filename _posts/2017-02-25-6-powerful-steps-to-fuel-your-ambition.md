@@ -8,6 +8,7 @@ categories:
 description: 'Connecting to your why, will help you to think more clearly, empower
   your relationships, broaden your windows of opportunity and most importantly it
   will fuel your energy and ambition. '
+image: "/uploads/2017/02/26/ambition1.png"
 ---
 ### 1. Connect to your inner ‘why’.
 
