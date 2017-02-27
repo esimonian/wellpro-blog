@@ -5,9 +5,9 @@
                 <div class="heading-lines">
                   <h3 class="widget-title heading">About Me</h3>
                 </div>
-                <img src="{{ site.baseurl}}/img/aboutsteph.jpg" alt="" class="side-about-img">
+                <img src="{{ site.url}}/img/aboutsteph.jpg" alt="" class="side-about-img">
                 <p class="mb-20 mt-30">Super interesting text here</p>
-                <img src="{{ site.baseurl}}/img/signature.png" alt="">
+                <img src="{{ site.url}}/img/signature.png" alt="">
               </div>
 
               <!-- Newsletter -->
@@ -37,7 +37,7 @@
                 <ul class="list-dividers">
                 {% for category in site.categories | limit: 4 %}
                   <li>
-                    <a href="{{ site.baseurl}}/{{ category.first | downcase }}.html">{{category | first }}</a><span>({{category | last | size}})</span>
+                    <a href="{{ site.url}}/{{ category.first | downcase }}.html">{{category | first }}</a><span>({{category | last | size}})</span>
                   </li>
                {% endfor %}
                 </ul>
@@ -46,7 +46,7 @@
               <!-- Ad banner -->
               <div class="widget custom-ad-banner">
                 <a href="#">
-                  <img src="{{ site.baseurl}}/img/banner.jpg" alt="">
+                  <img src="{{ site.url}}/img/banner.jpg" alt="">
                 </a>
               </div>
 
@@ -61,15 +61,15 @@
                     <li class="entry-li">
                       <article class="post-small clearfix">
                         <div class="entry-img">
-                          <a href="{{ site.baseurl}}/{{ post.url }}">
-                            <img src="{{ site.baseurl}}/{{ post.image }}" alt="">
+                          <a href="{{ site.url}}/{{ post.url }}">
+                            <img src="{{ site.url}}/{{ post.image }}" alt="">
                           </a>
                         </div>
                         <div class="entry">
-                          <h3 class="entry-title"><a href="{{ site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h3>
+                          <h3 class="entry-title"><a href="{{ site.url}}/{{ post.url }}">{{ post.title }}</a></h3>
                           <ul class="entry-meta list-inline">
                             <li class="entry-date">
-                              <a href="{{ site.baseurl}}/{{ post.url }}">{{ post.date | date_to_string }}</a>
+                              <a href="{{ site.url}}/{{ post.url }}">{{ post.date | date_to_string }}</a>
                             </li>
                           </ul>
                         </div>

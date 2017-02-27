@@ -19,7 +19,7 @@ layout: default
                 </div>
                 
                 <div class="entry-img">
-                  <img src="{{ site.baseurl}}/{{ page.image }}" alt="">
+                  <img src="{{ site.url}}/{{ page.image }}" alt="">
                 </div>
 
                 <div class="entry-wrap">
@@ -59,7 +59,7 @@ layout: default
                       <!-- entry author -->
                       {% assign author = site.data.authors[page.author] %}
                       <div class="entry-author-box clearfix">
-                        <img src="{{ site.baseurl}}/img/aboutsteph.jpg" class="author-img" alt="img">
+                        <img src="{{ site.url}}/img/aboutsteph.jpg" class="author-img" alt="img">
                         <div class="author-info">
                           <h6 class="author-name"><a href="#">{{author.name}}</a></h6>
                           <p class="mb-0">{{author.bio}}
