@@ -4505,5 +4505,9 @@ width: 200px;
 object-fit: cover;
 }
 
+img.author-img {
+  max-width: 100px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
