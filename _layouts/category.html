@@ -8,8 +8,9 @@ layout: default
 {% unless page.content == '' %}
   <p>{{ page.content }}</p>
 {% endunless %}
+
 {% assign cat = page.category %}
-{% for post in site.categories.page.category %}
+{% for post in site.categories[cat] %}
    <!-- Content -->
       <section class="content blog-standard pt-mdm-50">
         <div class="container relative">
@@ -34,7 +35,7 @@ layout: default
                     <div class="entry-header">
                       <a href="#" class="entry-category">{{page.title}}</a>
                       <h2 class="entry-title">
-                        <a href="{{ site.baseurl}}/{{ post.url }}">missing the Bahamas</a>
+                        <a href="{{ site.baseurl}}/{{ post.url }}">{{post.title}}</a>
                       </h2>
                     </div>
                     <div class="entry-wrap">
