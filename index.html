@@ -27,14 +27,20 @@ menu:
 
               <!-- grid posts -->
               <div class="row items-grid">
-              {% for post in site.posts limit: 4 offset: 1 %}
+              {% for post in site.posts limit: 2 offset: 1 %}
                     {% include small-grid-items.html %}
                {% endfor %}
-
+              
+              </div> <!-- end grid posts -->
+              <div class="row items-grid">
+              {% for post in site.posts limit: 2 offset: 2 %}
+                    {% include small-grid-items.html %}
+               {% endfor %}
+              
               </div> <!-- end grid posts -->
 
               <!-- large post -->
-              {% for post in site.posts limit: 1 offset: 4%}
+              {% for post in site.posts limit: 1 offset: 2%}
                   {% include large-post.html %}
               {% endfor %}
               <!-- end large post -->

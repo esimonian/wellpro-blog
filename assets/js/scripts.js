@@ -13,6 +13,8 @@
     initOwlCarousel();
     wow.init();
 
+    $('.small-item').matchHeight({byRow: false});
+
   });
 
 
