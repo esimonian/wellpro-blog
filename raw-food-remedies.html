@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: default
 title: Raw Food Remedies
 permalink: "/raw-food-remedies.html"
 menu:
@@ -8,4 +8,37 @@ menu:
     title: Raw Remedies
 ---
 
-Raw Food Remedies are a part of a healthy lifestyle and are your go-to solutions to optimize wellbeing.<br> Raw fruits, vegetables, herbs and spices are full of nutritional benefits and medicinal properties when eaten raw, juiced or used as tea. Follow me on Raw Food Remedies to increase your nutritional literacy and boost your overall vitality!
+<h3>Raw Food Remedies are a part of a healthy lifestyle and are your go-to solutions to optimize wellbeing.<br> Raw fruits, vegetables, herbs and spices are full of nutritional benefits and medicinal properties when eaten raw, juiced or used as tea. Follow me on Raw Food Remedies to increase your nutritional literacy and boost your overall vitality!</h3>
+<!-- Content -->
+      <section class="content blog-standard no-sidebar">
+        <div class="container relative">
+          <div class="row">
+            
+            <!-- post content -->
+            <div class="col-md-12 post-content mb-50">
+
+              <!-- grid posts -->
+              <div class="row items-grid">
+                {% for post in site.posts  %}
+                    {% include single-grid-item.html %}
+                {% endfor %}
+
+              
+
+              </div> <!-- end grid posts -->
+
+<!--
+              <div class="row mt-20">
+                <div class="col-md-12 text-center">
+                  <a href="#" class="btn btn-md btn-stroke" id="load-more">Load More</a>
+                </div>
+              </div>
+              -->
+
+
+            </div> <!-- end col -->
+            
+      
+          </div> <!-- end row -->
+        </div> <!-- end container -->
+      </section> <!-- end content -->
