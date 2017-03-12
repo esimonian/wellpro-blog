@@ -103,7 +103,15 @@
         </div> <!-- end navigation -->
       </nav> <!-- end navbar -->
 </header>
-
+{% if page.url contains 'raw-food-remedies'%}
+  <section class="header-wrap hero-section hero-img">
+    <div class="container">
+      <div class="hero-holder">
+        <h1 class="white mb-0">Raw Food Remedies </h1>
+      </div>
+    </div>
+  </section>
+{% else %}
  <section class="header-wrap hero-section bg-light">
     <div class="container">
       <div class="logo-container text-center">
@@ -115,5 +123,5 @@
       </div>
     </div>
   </section>
-
+{% endif %}
   <div class="content-wrapper oh">

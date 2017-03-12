@@ -1635,7 +1635,7 @@ header.transparent .navbar-toggle .icon-bar {
 /* Hero Image
 /*-------------------------------------------------------*/
 .hero-img {
-  background-image: url(../img/hero_img.jpg);
+  background-image: url(/img/wellpro-remedies.jpg);
   background-size: cover;
   background-position: center;
   padding: 0;
